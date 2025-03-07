@@ -5,16 +5,22 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const redis = new Redis(process.env.REDIS_URL);
 const MONAD_TESTNET_RPC = "https://testnet-rpc.monad.xyz";
 const CLAIM_AMOUNT = BigInt(ethers.parseEther("0.2").toString());
 const CLAIM_INTERVAL = 86400; // 24 hours in seconds
+
+// Ensure REDIS_URL is defined before initializing Redis
+if (!process.env.REDIS_URL) {
+  throw new Error("REDIS_URL is not defined in environment variables!");
+}
+
+const redis = new Redis(process.env.REDIS_URL);
 
 export async function POST(req: Request) {
   try {
     const body = await req.json();
     const { walletAddress } = body;
-    
+
     if (!walletAddress || !isAddress(walletAddress)) {
       return new Response(JSON.stringify({ error: "Invalid wallet address!" }), { status: 400 });
     }
@@ -39,13 +45,13 @@ export async function POST(req: Request) {
       redis.set(ipKey, "claimed", "EX", CLAIM_INTERVAL),
     ]);
 
-    const provider = new ethers.JsonRpcProvider(MONAD_TESTNET_RPC);
+    // Ensure MONAD_PRIVATE_KEY is available
     const privateKey = process.env.MONAD_PRIVATE_KEY;
-
     if (!privateKey) {
-      return new Response(JSON.stringify({ error: "Private key not found in env!" }), { status: 500 });
+      return new Response(JSON.stringify({ error: "Private key not found in environment variables!" }), { status: 500 });
     }
 
+    const provider = new ethers.JsonRpcProvider(MONAD_TESTNET_RPC);
     const wallet = new ethers.Wallet(privateKey, provider);
 
     const tx = await wallet.sendTransaction({
@@ -53,12 +59,21 @@ export async function POST(req: Request) {
       value: CLAIM_AMOUNT,
     });
 
-    await tx.wait();
+    try {
+      await tx.wait(); // Wait for transaction to be confirmed
+    } catch (txError) {
+      return new Response(JSON.stringify({
+        error: `Transaction failed: ${txError instanceof Error ? txError.message : String(txError)}`
+      }), { status: 500 });
+    }
+
+    // Close Redis connection after claim
+    redis.quit();
 
     return new Response(JSON.stringify({ success: true, txHash: tx.hash }), { status: 200 });
   } catch (error) {
     return new Response(JSON.stringify({
-      error: `Failed to send token: ${error instanceof Error ? error.message : String(error)}`
+      error: `Failed to process request: ${error instanceof Error ? error.message : String(error)}`
     }), { status: 500 });
   }
 }
