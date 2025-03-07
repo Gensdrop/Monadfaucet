@@ -1,0 +1,187 @@
+t=2025-03-03T22:14:24+0000 lvl=info msg="no configuration paths supplied"
+t=2025-03-03T22:14:24+0000 lvl=info msg="using configuration at default config path" path=/data/data/com.termux/files/home/.config/ngrok/ngrok.yml
+t=2025-03-03T22:14:24+0000 lvl=info msg="open config file" path=/data/data/com.termux/files/home/.config/ngrok/ngrok.yml err=nil
+t=2025-03-03T22:14:24+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-03-03T22:14:24+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:46280->[::1]:53: read: connection refused"
+t=2025-03-03T22:14:24+0000 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": dial tcp: lookup update.equinox.io on [::1]:53: read udp [::1]:60055->[::1]:53: read: connection refused"
+t=2025-03-03T22:14:25+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:54428->[::1]:53: read: connection refused"
+t=2025-03-03T22:14:26+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:41171->[::1]:53: read: connection refused"
+t=2025-03-03T22:14:28+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:38761->[::1]:53: read: connection refused"
+t=2025-03-03T22:14:32+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:36547->[::1]:53: read: connection refused"
+t=2025-03-03T22:14:40+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:49452->[::1]:53: read: connection refused"
+t=2025-03-03T22:14:56+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:60530->[::1]:53: read: connection refused"
+t=2025-03-03T22:15:26+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:59588->[::1]:53: read: connection refused"
+t=2025-03-03T22:15:56+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:35359->[::1]:53: read: connection refused"
+t=2025-03-03T22:16:11+0000 lvl=info msg="Got quit command" obj=consoleui
+t=2025-03-03T22:16:11+0000 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2025-03-03T22:16:11+0000 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2025-03-03T22:16:19+0000 lvl=info msg="no configuration paths supplied"
+t=2025-03-03T22:16:19+0000 lvl=info msg="using configuration at default config path" path=/data/data/com.termux/files/home/.config/ngrok/ngrok.yml
+t=2025-03-03T22:16:19+0000 lvl=info msg="open config file" path=/data/data/com.termux/files/home/.config/ngrok/ngrok.yml err=nil
+t=2025-03-03T22:16:19+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-03-03T22:16:19+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:34428->[::1]:53: read: connection refused"
+t=2025-03-03T22:16:20+0000 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": dial tcp: lookup update.equinox.io on [::1]:53: read udp [::1]:50400->[::1]:53: read: connection refused"
+t=2025-03-03T22:16:20+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:37914->[::1]:53: read: connection refused"
+t=2025-03-03T22:16:21+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:58759->[::1]:53: read: connection refused"
+t=2025-03-03T22:16:23+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:44230->[::1]:53: read: connection refused"
+t=2025-03-03T22:16:27+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:34009->[::1]:53: read: connection refused"
+t=2025-03-03T22:16:35+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:33926->[::1]:53: read: connection refused"
+t=2025-03-03T22:16:51+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:43697->[::1]:53: read: connection refused"
+t=2025-03-03T22:17:21+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:39171->[::1]:53: read: connection refused"
+t=2025-03-03T22:17:51+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:52533->[::1]:53: read: connection refused"
+t=2025-03-03T22:18:21+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:57294->[::1]:53: read: connection refused"
+t=2025-03-03T22:18:51+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:50906->[::1]:53: read: connection refused"
+t=2025-03-03T22:19:07+0000 lvl=info msg="Got quit command" obj=consoleui
+t=2025-03-03T22:19:07+0000 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2025-03-03T22:19:07+0000 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2025-03-03T22:19:09+0000 lvl=info msg="no configuration paths supplied"
+t=2025-03-03T22:19:09+0000 lvl=info msg="using configuration at default config path" path=/data/data/com.termux/files/home/.config/ngrok/ngrok.yml
+t=2025-03-03T22:19:09+0000 lvl=info msg="open config file" path=/data/data/com.termux/files/home/.config/ngrok/ngrok.yml err=nil
+t=2025-03-03T22:19:09+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-03-03T22:19:09+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:48563->[::1]:53: read: connection refused"
+t=2025-03-03T22:19:09+0000 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": dial tcp: lookup update.equinox.io on [::1]:53: read udp [::1]:46506->[::1]:53: read: connection refused"
+t=2025-03-03T22:19:09+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:43977->[::1]:53: read: connection refused"
+t=2025-03-03T22:19:10+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:55960->[::1]:53: read: connection refused"
+t=2025-03-03T22:19:12+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:44046->[::1]:53: read: connection refused"
+t=2025-03-03T22:19:16+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:43373->[::1]:53: read: connection refused"
+t=2025-03-03T22:19:24+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:56925->[::1]:53: read: connection refused"
+t=2025-03-03T22:19:40+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:40159->[::1]:53: read: connection refused"
+t=2025-03-03T22:20:10+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:41972->[::1]:53: read: connection refused"
+t=2025-03-03T22:20:40+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:54770->[::1]:53: read: connection refused"
+t=2025-03-03T22:21:10+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:49924->[::1]:53: read: connection refused"
+t=2025-03-03T22:21:40+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:41284->[::1]:53: read: connection refused"
+t=2025-03-03T22:22:10+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:48596->[::1]:53: read: connection refused"
+t=2025-03-03T22:22:40+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:34936->[::1]:53: read: connection refused"
+t=2025-03-03T22:23:10+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:53802->[::1]:53: read: connection refused"
+t=2025-03-03T22:23:26+0000 lvl=info msg="Got quit command" obj=consoleui
+t=2025-03-03T22:23:26+0000 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2025-03-03T22:23:26+0000 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2025-03-03T22:23:26+0000 lvl=info msg="no more state changes" obj=tunnels.session
+t=2025-03-03T22:23:27+0000 lvl=info msg="no configuration paths supplied"
+t=2025-03-03T22:23:27+0000 lvl=info msg="using configuration at default config path" path=/data/data/com.termux/files/home/.config/ngrok/ngrok.yml
+t=2025-03-03T22:23:27+0000 lvl=info msg="open config file" path=/data/data/com.termux/files/home/.config/ngrok/ngrok.yml err=nil
+t=2025-03-03T22:23:27+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-03-03T22:23:28+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:56851->[::1]:53: read: connection refused"
+t=2025-03-03T22:23:28+0000 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": dial tcp: lookup update.equinox.io on [::1]:53: read udp [::1]:36438->[::1]:53: read: connection refused"
+t=2025-03-03T22:23:28+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:33836->[::1]:53: read: connection refused"
+t=2025-03-03T22:23:29+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:52271->[::1]:53: read: connection refused"
+t=2025-03-03T22:23:31+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:50416->[::1]:53: read: connection refused"
+t=2025-03-03T22:23:35+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:33402->[::1]:53: read: connection refused"
+t=2025-03-03T22:23:43+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:60458->[::1]:53: read: connection refused"
+t=2025-03-03T22:23:59+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:45748->[::1]:53: read: connection refused"
+t=2025-03-03T22:24:28+0000 lvl=info msg="Got quit command" obj=consoleui
+t=2025-03-03T22:24:28+0000 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2025-03-03T22:24:28+0000 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2025-03-03T22:27:00+0000 lvl=info msg="no configuration paths supplied"
+t=2025-03-03T22:27:00+0000 lvl=info msg="using configuration at default config path" path=/data/data/com.termux/files/home/.config/ngrok/ngrok.yml
+t=2025-03-03T22:27:00+0000 lvl=info msg="open config file" path=/data/data/com.termux/files/home/.config/ngrok/ngrok.yml err=nil
+t=2025-03-03T22:27:00+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-03-03T22:27:00+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:37525->[::1]:53: read: connection refused"
+t=2025-03-03T22:27:00+0000 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": dial tcp: lookup update.equinox.io on [::1]:53: read udp [::1]:42857->[::1]:53: read: connection refused"
+t=2025-03-03T22:27:00+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:46695->[::1]:53: read: connection refused"
+t=2025-03-03T22:27:01+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:43621->[::1]:53: read: connection refused"
+t=2025-03-03T22:27:03+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:59976->[::1]:53: read: connection refused"
+t=2025-03-03T22:27:07+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:43585->[::1]:53: read: connection refused"
+t=2025-03-03T22:27:15+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:52507->[::1]:53: read: connection refused"
+t=2025-03-03T22:27:31+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:48503->[::1]:53: read: connection refused"
+t=2025-03-03T22:28:01+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:46383->[::1]:53: read: connection refused"
+t=2025-03-03T22:28:06+0000 lvl=info msg="Got quit command" obj=consoleui
+t=2025-03-03T22:28:06+0000 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2025-03-03T22:28:06+0000 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2025-03-03T22:34:08+0000 lvl=info msg="no configuration paths supplied"
+t=2025-03-03T22:34:08+0000 lvl=info msg="using configuration at default config path" path=/data/data/com.termux/files/home/.config/ngrok/ngrok.yml
+t=2025-03-03T22:34:08+0000 lvl=info msg="open config file" path=/data/data/com.termux/files/home/.config/ngrok/ngrok.yml err=nil
+t=2025-03-03T22:34:08+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-03-03T22:34:08+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:39432->[::1]:53: read: connection refused"
+t=2025-03-03T22:34:08+0000 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": dial tcp: lookup update.equinox.io on [::1]:53: read udp [::1]:36935->[::1]:53: read: connection refused"
+t=2025-03-03T22:34:08+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:60103->[::1]:53: read: connection refused"
+t=2025-03-03T22:34:09+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:50799->[::1]:53: read: connection refused"
+t=2025-03-03T22:34:11+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:43472->[::1]:53: read: connection refused"
+t=2025-03-03T22:34:13+0000 lvl=info msg="Got quit command" obj=consoleui
+t=2025-03-03T22:34:13+0000 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2025-03-03T22:34:13+0000 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2025-03-03T22:34:15+0000 lvl=info msg="no configuration paths supplied"
+t=2025-03-03T22:34:15+0000 lvl=info msg="using configuration at default config path" path=/data/data/com.termux/files/home/.config/ngrok/ngrok.yml
+t=2025-03-03T22:34:15+0000 lvl=info msg="open config file" path=/data/data/com.termux/files/home/.config/ngrok/ngrok.yml err=nil
+t=2025-03-03T22:34:15+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-03-03T22:34:15+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:59570->[::1]:53: read: connection refused"
+t=2025-03-03T22:34:15+0000 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": dial tcp: lookup update.equinox.io on [::1]:53: read udp [::1]:56300->[::1]:53: read: connection refused"
+t=2025-03-03T22:34:16+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:46821->[::1]:53: read: connection refused"
+t=2025-03-03T22:34:17+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:57369->[::1]:53: read: connection refused"
+t=2025-03-03T22:34:18+0000 lvl=info msg="Got quit command" obj=consoleui
+t=2025-03-03T22:34:18+0000 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2025-03-03T22:34:18+0000 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2025-03-03T22:36:52+0000 lvl=info msg="no configuration paths supplied"
+t=2025-03-03T22:36:52+0000 lvl=info msg="using configuration at default config path" path=/data/data/com.termux/files/home/.config/ngrok/ngrok.yml
+t=2025-03-03T22:36:52+0000 lvl=info msg="open config file" path=/data/data/com.termux/files/home/.config/ngrok/ngrok.yml err=nil
+t=2025-03-03T22:36:52+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-03-03T22:36:52+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:43068->[::1]:53: read: connection refused"
+t=2025-03-03T22:36:52+0000 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": dial tcp: lookup update.equinox.io on [::1]:53: read udp [::1]:47318->[::1]:53: read: connection refused"
+t=2025-03-03T22:36:52+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:45756->[::1]:53: read: connection refused"
+t=2025-03-03T22:36:53+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:38180->[::1]:53: read: connection refused"
+t=2025-03-03T22:36:55+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:43981->[::1]:53: read: connection refused"
+t=2025-03-03T22:36:57+0000 lvl=info msg="Got quit command" obj=consoleui
+t=2025-03-03T22:36:57+0000 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2025-03-03T22:36:57+0000 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2025-03-03T22:39:00+0000 lvl=info msg="no configuration paths supplied"
+t=2025-03-03T22:39:00+0000 lvl=info msg="using configuration at default config path" path=/data/data/com.termux/files/home/.config/ngrok/ngrok.yml
+t=2025-03-03T22:39:00+0000 lvl=info msg="open config file" path=/data/data/com.termux/files/home/.config/ngrok/ngrok.yml err=nil
+t=2025-03-03T22:39:00+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-03-03T22:39:00+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:40511->[::1]:53: read: connection refused"
+t=2025-03-03T22:39:00+0000 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": dial tcp: lookup update.equinox.io on [::1]:53: read udp [::1]:55250->[::1]:53: read: connection refused"
+t=2025-03-03T22:39:00+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:54641->[::1]:53: read: connection refused"
+t=2025-03-03T22:39:01+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:55680->[::1]:53: read: connection refused"
+t=2025-03-03T22:39:03+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:52475->[::1]:53: read: connection refused"
+t=2025-03-03T22:39:07+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:57612->[::1]:53: read: connection refused"
+t=2025-03-03T22:39:13+0000 lvl=info msg="Got quit command" obj=consoleui
+t=2025-03-03T22:39:13+0000 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2025-03-03T22:39:13+0000 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2025-03-03T22:45:19+0000 lvl=info msg="no configuration paths supplied"
+t=2025-03-03T22:45:19+0000 lvl=info msg="using configuration at default config path" path=/data/data/com.termux/files/home/.config/ngrok/ngrok.yml
+t=2025-03-03T22:45:19+0000 lvl=info msg="open config file" path=/data/data/com.termux/files/home/.config/ngrok/ngrok.yml err=nil
+t=2025-03-03T22:45:19+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-03-03T22:45:19+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:54092->[::1]:53: read: connection refused"
+t=2025-03-03T22:45:19+0000 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": dial tcp: lookup update.equinox.io on [::1]:53: read udp [::1]:42055->[::1]:53: read: connection refused"
+t=2025-03-03T22:45:19+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:52851->[::1]:53: read: connection refused"
+t=2025-03-03T22:45:20+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:53914->[::1]:53: read: connection refused"
+t=2025-03-03T22:45:22+0000 lvl=info msg="Got quit command" obj=consoleui
+t=2025-03-03T22:45:22+0000 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2025-03-03T22:45:22+0000 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2025-03-03T22:53:15+0000 lvl=info msg="no configuration paths supplied"
+t=2025-03-03T22:53:15+0000 lvl=info msg="using configuration at default config path" path=/data/data/com.termux/files/home/.config/ngrok/ngrok.yml
+t=2025-03-03T22:53:15+0000 lvl=info msg="open config file" path=/data/data/com.termux/files/home/.config/ngrok/ngrok.yml err=nil
+t=2025-03-03T22:53:15+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-03-03T22:53:15+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:33886->[::1]:53: read: connection refused"
+t=2025-03-03T22:53:15+0000 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": dial tcp: lookup update.equinox.io on [::1]:53: read udp [::1]:59433->[::1]:53: read: connection refused"
+t=2025-03-03T22:53:15+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:42672->[::1]:53: read: connection refused"
+t=2025-03-03T22:53:16+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:56901->[::1]:53: read: connection refused"
+t=2025-03-03T22:53:18+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:32917->[::1]:53: read: connection refused"
+t=2025-03-03T22:53:22+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:55164->[::1]:53: read: connection refused"
+t=2025-03-03T22:53:30+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:44145->[::1]:53: read: connection refused"
+t=2025-03-03T22:53:46+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:54248->[::1]:53: read: connection refused"
+t=2025-03-03T22:54:16+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:57134->[::1]:53: read: connection refused"
+t=2025-03-03T22:54:37+0000 lvl=info msg="Got quit command" obj=consoleui
+t=2025-03-03T22:54:37+0000 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2025-03-03T22:54:37+0000 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2025-03-03T23:06:30+0000 lvl=info msg="no configuration paths supplied"
+t=2025-03-03T23:06:30+0000 lvl=info msg="using configuration at default config path" path=/data/data/com.termux/files/home/.config/ngrok/ngrok.yml
+t=2025-03-03T23:06:30+0000 lvl=info msg="open config file" path=/data/data/com.termux/files/home/.config/ngrok/ngrok.yml err=nil
+t=2025-03-03T23:06:30+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-03-03T23:06:30+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:59361->[::1]:53: read: connection refused"
+t=2025-03-03T23:06:30+0000 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": dial tcp: lookup update.equinox.io on [::1]:53: read udp [::1]:56647->[::1]:53: read: connection refused"
+t=2025-03-03T23:06:31+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:54672->[::1]:53: read: connection refused"
+t=2025-03-03T23:06:32+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:48314->[::1]:53: read: connection refused"
+t=2025-03-03T23:06:33+0000 lvl=info msg="Got quit command" obj=consoleui
+t=2025-03-03T23:06:33+0000 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2025-03-03T23:06:33+0000 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2025-03-03T23:08:27+0000 lvl=info msg="no configuration paths supplied"
+t=2025-03-03T23:08:27+0000 lvl=info msg="using configuration at default config path" path=/data/data/com.termux/files/home/.config/ngrok/ngrok.yml
+t=2025-03-03T23:08:27+0000 lvl=info msg="open config file" path=/data/data/com.termux/files/home/.config/ngrok/ngrok.yml err=nil
+t=2025-03-03T23:08:27+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-03-03T23:08:27+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:50254->[::1]:53: read: connection refused"
+t=2025-03-03T23:08:28+0000 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": dial tcp: lookup update.equinox.io on [::1]:53: read udp [::1]:56721->[::1]:53: read: connection refused"
+t=2025-03-03T23:08:28+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:60215->[::1]:53: read: connection refused"
+t=2025-03-03T23:08:29+0000 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="failed to dial ngrok server with address \"connect.ngrok-agent.com:443\": dial tcp: lookup connect.ngrok-agent.com on [::1]:53: read udp [::1]:50455->[::1]:53: read: connection refused"
+t=2025-03-03T23:08:30+0000 lvl=info msg="Got quit command" obj=consoleui
+t=2025-03-03T23:08:30+0000 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2025-03-03T23:08:30+0000 lvl=info msg="session closing" obj=tunnels.session err=nil

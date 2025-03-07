@@ -1,0 +1,152 @@
+/* Animation Effects */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 80% { transform: translateX(-5px); }
+  40%, 60% { transform: translateX(5px); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Body */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to bottom, #87CEEB, #4682B4);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Box */
+.box {
+  background: rgba(255, 255, 255, 0.6); /* Transparent */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Image */
+.full-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px 12px 0 0;
+}
+
+/* Description */
+.description {
+  font-size: 14px;
+  color: #555;
+  margin: 10px 0;
+}
+
+/* Input */
+.input {
+  width: calc(100% - 20px);
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: center;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Button */
+.button {
+  width: 100%;
+  padding: 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background 0.3s ease, transform 0.1s ease;
+}
+
+.button:hover {
+  background: #0056b3;
+}
+
+.button.loading {
+  background: #0056b3;
+  cursor: wait;
+}
+
+.button:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+/* Loader Animation */
+.loader {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 3px solid white;
+  border-top: 3px solid transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+/* Shake Effect */
+.shake {
+  animation: shake 0.4s ease-in-out;
+}
+
+/* Fade-in Effect */
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+/* Error & Success Messages */
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.success {
+  color: green;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Watermark */
+.watermark {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 15px;
+  text-align: center;
+}
