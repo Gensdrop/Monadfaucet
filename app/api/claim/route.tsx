@@ -1,29 +1,29 @@
 import { ethers } from "ethers";
 import { isAddress } from "@ethersproject/address";
-import dotenv from "dotenv";
 import Redis from "ioredis";
+import dotenv from "dotenv";
 
 dotenv.config();
 
 const redis = new Redis(process.env.REDIS_URL);
 const MONAD_TESTNET_RPC = "https://testnet-rpc.monad.xyz";
 const CLAIM_AMOUNT = BigInt(ethers.parseEther("0.2").toString());
-const CLAIM_INTERVAL = 24 * 60 * 60 * 1000; // 24 jam
+const CLAIM_INTERVAL = 86400; // 24 hours in seconds
 
 export async function POST(req: Request) {
   try {
     const body = await req.json();
     const { walletAddress } = body;
-
+    
     if (!walletAddress || !isAddress(walletAddress)) {
       return new Response(JSON.stringify({ error: "Invalid wallet address!" }), { status: 400 });
     }
 
-    const userIP = req.headers.get("x-forwarded-for") || "unknown-ip";
+    const userIP = req.headers.get("x-forwarded-for") || req.headers.get("x-real-ip") || "unknown_ip";
     const walletKey = `wallet:${walletAddress}`;
     const ipKey = `ip:${userIP}`;
 
-    // Cek di Redis apakah wallet/IP sudah klaim dalam 24 jam terakhir
+    // Check if wallet or IP has claimed in the last 24 hours
     const [walletClaim, ipClaim] = await Promise.all([
       redis.get(walletKey),
       redis.get(ipKey),
@@ -33,13 +33,12 @@ export async function POST(req: Request) {
       return new Response(JSON.stringify({ error: "You can only claim once every 24 hours!" }), { status: 400 });
     }
 
-    // Simpan klaim di Redis dengan TTL 24 jam
+    // Store claim record in Redis with 24-hour expiry
     await Promise.all([
-      redis.set(walletKey, Date.now(), "EX", 86400),
-      redis.set(ipKey, Date.now(), "EX", 86400),
+      redis.set(walletKey, "claimed", "EX", CLAIM_INTERVAL),
+      redis.set(ipKey, "claimed", "EX", CLAIM_INTERVAL),
     ]);
 
-    // Kirim token Monad
     const provider = new ethers.JsonRpcProvider(MONAD_TESTNET_RPC);
     const privateKey = process.env.MONAD_PRIVATE_KEY;
 
@@ -48,6 +47,7 @@ export async function POST(req: Request) {
     }
 
     const wallet = new ethers.Wallet(privateKey, provider);
+
     const tx = await wallet.sendTransaction({
       to: walletAddress,
       value: CLAIM_AMOUNT,
